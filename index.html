@@ -1,23 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sondv301 - Home Page</title>
-    <link rel="stylesheet" href="/css/styles.css">
     <meta name="google-site-verification" content="Zefa18OnjA8rSFKeOP4EkaGLrdik6FhexuJY_0vC-Ng" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <title>Home</title>
 </head>
+
 <body>
-    <header>
-        <img src="/assets/images/mee.JPG" alt="Son Duong" id="imgMe">
-        <h1>Son Duong</h1>
-    </header>
-    <div>
-        <h2>Hi!</h2>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">SONDV301</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item fw-semibold">
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="notes.html">Notes</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container p-3">
+        <div>
+            <div class="text-center">
+                <img src="assets/images/me.png" style="max-width: 200px;" class="rounded-circle mb-3 mx-auto"
+                    alt="sondv301">
+                <p class="fw-bold fs-3">Dương Văn Sơn</p>
+            </div>
+            <div class="col-12 col-lg-6 card text-dark bg-light mb-3 mx-auto">
+                <div class="card-header text-bg-dark text-center text-uppercase fw-semibold">General</div>
+                <div class="card-body">
+                    <p class="card-text">Birthday: 1998</p>
+                    <p class="card-text">Email: <a href="mailto:sondv301@gmail.com"
+                            class="text-decoration-none">sondv301@gmail.com</a></p>
+                    <p class="card-text">Phone: <a href="tel:+84354891155" class="text-decoration-none">+84 35 489
+                            1155</a></p>
+                    <p class="card-text">Bio: Works at <a target="_blank" class="text-decoration-none"
+                            href="https://www.facebook.com/AndesGroupTechnology">AndesGroup Technology Company</a></p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 card text-dark bg-light mb-3 mx-auto">
+                <div class="card-header text-bg-dark text-center text-uppercase fw-semibold">Skills</div>
+                <div class="card-body">
+                    <a href="https://dart.dev/" target="_blank"><img src="assets/icons/dart.svg" alt="Dart"
+                            class="carousel-control-next-icon"></a>
+                    <a href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="_blank"><img src="assets/icons/cs.png" alt="C#"
+                            class="carousel-control-next-icon mx-2"></a>
+                    <a href="https://docs.microsoft.com/vi-vn/cpp/cpp/?view=msvc-140" target="_blank"><img src="assets/icons/cpp.png" alt="C++"
+                            class="carousel-control-next-icon"></a>
+                    <a href="https://www.w3schools.com/html/" target="_blank"><img src="assets/icons/html.png" alt="HTML"
+                            class="carousel-control-next-icon mx-2"></a>
+                    <a href="https://www.w3schools.com/css/" target="_blank"><img src="assets/icons/css.png" alt="CSS"
+                            class="carousel-control-next-icon"></a>
+                    <p></p>
+                    <a href="https://flutter.dev/" target="_blank">
+                        <img src="assets/icons/flutter.png" alt="Flutter" class="carousel-control-next-icon"></a>
+                    <a href="https://docs.microsoft.com/vi-vn/windows/uwp/" target="_blank">
+                        <img src="assets/icons/uwp.png" alt="UWP" class="carousel-control-next-icon mx-2"></a>
+                    <p></p>
+                    <a href="https://developer.android.com/studio" target="_blank">
+                        <img src="assets/icons/android_studio.png" alt="Git" class="carousel-control-next-icon"></a>
+                    <a href="https://visualstudio.microsoft.com/" target="_blank">
+                        <img src="assets/icons/visual_studio.png" alt="Git" class="carousel-control-next-icon mx-2"></a>
+                    <a href="https://git-scm.com/" target="_blank">
+                        <img src="assets/icons/git.svg" alt="Git" class="carousel-control-next-icon"></a>
+                    <a href="https://www.office.com/" target="_blank">
+                        <img src="assets/icons/office.png" alt="Office" class="carousel-control-next-icon mx-2"></a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 card text-dark bg-light mb-3 mx-auto">
+                <div class="card-header text-bg-dark text-center text-uppercase fw-semibold">Social network</div>
+                <div class="card-body">
+                    <a href="https://github.com/sondv301" target="_blank"><img src="assets/icons/github.png"
+                            alt="Github" class="carousel-control-next-icon"></a>
+                    <a href="https://fb.com/100028705999999" target="_blank"><img src="assets/icons/facebook.png"
+                            alt="Facebook" class="carousel-control-next-icon mx-2"></a>
+                    <a href="https://t.me/sondv301" target="_blank"><img src="assets/icons/telegram.png" alt="Telegram"
+                            class="carousel-control-next-icon"></a>
+                    <a href="https://youtube.com/channel/UCu382PQhF-gds6lzmYQgYPQ" target="_blank"><img
+                            src="assets/icons/youtube.png" alt="Youtube" class="carousel-control-next-icon mx-2"></a>
+                </div>
+            </div>
+        </div>
     </div>
-    <footer>
-        <p>© 2022 sondv301</p>
+    <footer class="bg-dark py-2">
+        <p class="text-center text-light mb-0">© 2022 sondv301</p>
     </footer>
 </body>
+
 </html>

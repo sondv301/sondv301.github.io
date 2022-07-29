@@ -6,9 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="Zefa18OnjA8rSFKeOP4EkaGLrdik6FhexuJY_0vC-Ng" />
-    <link rel="stylesheet" href="../../css/bootstrap.min.css">
-    <script src="../../js/bootstrap.bundle.min.js"></script>
-    <title>sondv301 - Home Page</title>
+    <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <title>SONDV301 - Notes</title>
 </head>
 
 <body>
@@ -31,6 +33,48 @@
             </div>
         </div>
     </nav>
+    <div class="container p-3">
+        <p>Lưu mấy cái hay dùng thôi ^^</p>
+        <!-- General -->
+        <article class="card mb-3">
+            <div class="card-header text-bg-dark fw-semibold">Tài liệu không có tiêu đề</div>
+            <div class="card-body s-note">
+                <h5 class="card-title"><img src="assets/icons/note.png" alt="Note" width="24"> Đổi tên file hàng loạt
+                    trên Windows bằng Powershell</h5>
+                <p class="card-text">Di chuyển tới thư mục có các file cần đổi tên, nhấn <span class="s-code">Shift +
+                        chuột phải</span> chọn "Open Powershell window here".</p>
+                <p class="card-text s-code">dir | %{$x=0} {Rename-Item $_ -NewName "img$x.png"; $x++}</p>
+            </div>
+        </article>
+        <!-- Flutter - Android -->
+        <article class="card mb-3">
+            <div class="card-header text-bg-dark fw-semibold">Flutter - Android</div>
+            <div class="card-body s-note">
+                <h5 class="card-title"><img src="assets/icons/note.png" alt="Note" width="24"> Google Admod Test</h5>
+                <p class="card-text mb-1">App ID:</p>
+                <p class="s-code">ca-app-pub-3940256099942544~3347511713</p>
+                <!--  -->
+                <p class="card-text mt-2 mb-1">Ads Banner:</p>
+                <p class="s-code">ca-app-pub-3940256099942544/6300978111</p>
+                <!--  -->
+                <p class="card-text mt-2 mb-1">Ads Inter:</p>
+                <p class="s-code">ca-app-pub-3940256099942544/1033173712</p>
+                <!--  -->
+                <p class="card-text mt-2 mb-1">Ads Native:</p>
+                <p class="s-code">ca-app-pub-3940256099942544/2247696110</p>
+            </div>
+        </article>
+        <!-- C# - UWP -->
+        <article class="card mb-3">
+            <div class="card-header text-bg-dark fw-semibold">C# - UWP</div>
+            <div class="card-body s-note">
+                <p class="card-text">Chưa có cái gì cả =))</p>
+            </div>
+        </article>
+    </div>
+    <footer class="bg-dark py-2">
+        <p class="text-center text-light mb-0">© 2022 sondv301</p>
+    </footer>
 </body>
 
 </html>

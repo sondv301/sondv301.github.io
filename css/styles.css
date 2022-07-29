@@ -2,16 +2,10 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-body{
-    background-color: white;
-    text-align: center;
-    width: 960px;
-    margin: 0 auto;
-    padding: 50px;
-}
-#imgMe{
-    width: 160px;
-    height: 160px;
-    object-fit: cover;
-    border-radius: 160px;
+.s-code{
+    font-style: italic;
+    background-color: rgba(0, 0, 0, 0.05);
+    display: inline;
+    padding: 3px 9px;
+    border-radius: 5px;
 }

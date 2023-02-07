@@ -18,7 +18,9 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="/">SONDV301</a>
+            <a class="navbar-brand" href="/">
+                <img src="assets/images/sondv-640x160-white.png" alt="SONDV" width="112" height="28">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -48,22 +50,55 @@
                 <p class="card-text s-code">dir | %{$x=0} {Rename-Item $_ -NewName "img$x.png"; $x++}</p>
             </div>
         </article>
-        <!-- Flutter - Android -->
+        <!-- Flutter - Android, iOS-->
         <article class="card mb-3">
-            <div class="card-header text-bg-dark fw-semibold">Flutter - Android</div>
+            <div class="card-header text-bg-dark fw-semibold">Flutter - Android, iOS</div>
             <div class="card-body s-note">
                 <h5 class="card-title"><img src="assets/icons/note.png" alt="Note" width="24"> Google Admob Test</h5>
                 <p class="card-text mb-1">App ID:</p>
-                <p class="s-code">ca-app-pub-3940256099942544~3347511713</p>
+                <div class="mb-2">
+                    <span class="mx-2">Android:</span><p class="s-code">ca-app-pub-3940256099942544~3347511713</p>
+                </div>
+                <div>
+                    <span class="mx-2">iOS:</span><p class="s-code">ca-app-pub-3940256099942544~1458002511</p>
+                </div>
                 <!--  -->
                 <p class="card-text mt-2 mb-1">Ads Banner:</p>
-                <p class="s-code">ca-app-pub-3940256099942544/6300978111</p>
+                <div class="mb-2">
+                    <span class="mx-2">Android:</span><p class="s-code">ca-app-pub-3940256099942544/6300978111</p>
+                </div>
+                <div>
+                    <span class="mx-2">iOS:</span><p class="s-code">ca-app-pub-3940256099942544/2934735716</p>
+                </div>
                 <!--  -->
-                <p class="card-text mt-2 mb-1">Ads Inter:</p>
-                <p class="s-code">ca-app-pub-3940256099942544/1033173712</p>
+                <p class="card-text mt-2 mb-1">Ads Interstitial:</p>
+                <div class="mb-2">
+                    <span class="mx-2">Android:</span><p class="s-code">ca-app-pub-3940256099942544/1033173712</p>
+                </div>
+                <div>
+                    <span class="mx-2">iOS:</span><p class="s-code">ca-app-pub-3940256099942544/4411468910</p>
+                </div>
+                <!--  -->
+                <p class="card-text mt-2 mb-1">Ads Rewarded:</p>
+                <div class="mb-2">
+                    <span class="mx-2">Android:</span><p class="s-code">ca-app-pub-3940256099942544/5224354917</p>
+                </div>
+                <div>
+                    <span class="mx-2">iOS:</span><p class="s-code">ca-app-pub-3940256099942544/1712485313</p>
+                </div>
                 <!--  -->
                 <p class="card-text mt-2 mb-1">Ads Native:</p>
-                <p class="s-code">ca-app-pub-3940256099942544/2247696110</p>
+                <div class="mb-2">
+                    <span class="mx-2">Android:</span><p class="s-code">ca-app-pub-3940256099942544/2247696110</p>
+                </div>
+                <div>
+                    <span class="mx-2">iOS:</span><p class="s-code"></p>
+                </div>
+            </div>
+            <div class="card-body s-note">
+                <h5 class="card-title"><img src="assets/icons/note.png" alt="Note" width="24"> Get SHA1, SHA256 android</h5>
+                <p class="card-text">Open cmd in android folder, <span class="s-code">flutter_project_folder/android</span> and run</p>
+                <p class="card-text s-code">./gradlew signingReport</p>
             </div>
         </article>
         <!-- C# - UWP -->
